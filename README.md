@@ -7,7 +7,7 @@ It turns out that there are a lot of interesting problems that can be solved wit
 ## Working with strings
 A string is a data structure that lends itself to recursive solutions. Do you see why? It's because a string consists of the substring plus that missing letter.
 
-```javascript
+```js
 let string = 'Algorithm'
   string === string.substring(0, string.length - 1)
 				// all letters except for last letter
@@ -23,7 +23,7 @@ With the problems below use our technique for finding recursive solutions. Remem
 
 Ok, so the first step is to choose an example like "pizza". So to print out all of the elements of pizza. We would just write out:
 
-```javascript
+```js
 
 function printString(string){
   console.log(string[0], string[1], string[2], string[3], string[4])
@@ -32,9 +32,9 @@ function printString(string){
 printString("pizza")
 ```
 
-Now we ask if we can perform this operation by incorporating use the function printString. We see that we can. Print string seems to be equivalent to printing the first letter followed by printing all but the first letter of a string. Or, in Javascript:
+Now we ask if we can perform this operation by incorporating use the function printString. We see that we can. Print string seems to be equivalent to printing the first letter followed by printing all but the first letter of a string. Or, in JavaScript:
 
-```javascript
+```js
 function printString(string){
   let substring
   console.log(string[0])
@@ -47,7 +47,7 @@ printString("pizza")
 
 Now there is only one thing left to do, which is find the base case. Well the stopping point should be when there is only one letter left in the string. At that point, you can just print out the string. So this gives us:
 
-```javascript
+```js
 
 function printString(string){
   console.log(string[0])
