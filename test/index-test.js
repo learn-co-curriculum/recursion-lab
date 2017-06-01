@@ -33,7 +33,7 @@ describe('printString()', function() {
     expect(console.log).toHaveBeenCalledWith("e")
   });
 
-  it("calls the function once for each letter in the string", function() {
+  it("uses recursion, calling itself once for each letter in the string", function() {
     var printString = sinon.spy(window, "printString");
     printString("pizza")
     expect(printString.callCount).toEqual(5)
