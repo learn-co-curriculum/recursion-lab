@@ -1,7 +1,6 @@
 var chai = require('chai');
 var sinon = require('sinon');
 
-
 beforeEach(function() {
   expect.spyOn(console, 'log');
 });
@@ -53,7 +52,6 @@ describe('reverseString()', function() {
   });
 });
 
-
 describe('isPalindrome()', function() {
   it("returns 'false' when a string is not a palindrome", function() {
     expect(isPalindrome('pizza')).toEqual(false);
@@ -95,7 +93,6 @@ describe('maxOf()', function() {
     expect(maxOf.callCount).toEqual(4);
   });
 });
-
 
 describe('includesNumber()', function() {
   it("returns 'true' if the number is present in the array", function() {
