@@ -123,12 +123,12 @@ printString("supercalifragilisticexpialidocious");
 
 Once we've verified that our solution works, let's move it over to our `index.js` file and start attacking the remaining challenges in this lab.
 
-## Additional Problems with Strings
+## Additional string challenges
 
 1. Write out a recursive function to reverse a string.
 2. Write out a recursive function to see if a word is a palindrome.
 
-## Arrays
+## Array challenges
 
 Arrays are another type of recursion-happy data structure. This is because, similar to the string–substring relationship, the properties of an array can be thought of as a series of sub-arrays or, in the context of our `printString()` code above, a combination of sub-arrays and a final element.
 
