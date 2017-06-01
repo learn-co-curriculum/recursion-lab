@@ -44,7 +44,7 @@ printString("pizza");
 
 It works! Time to pack up and head home.
 
-![Homer leaving work]()
+![Homer leaving work](https://cloud.githubusercontent.com/assets/17556281/26704825/c0583410-46ff-11e7-80c0-a8a5791c290f.gif)
 
 But wait, our solution only works for strings that are five characters long:
 
