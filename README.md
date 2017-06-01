@@ -20,7 +20,7 @@ myString;
 // => "Algorithm"
 ```
 
-If you said something along the lines of *"a string is composed of a ton of distinct, overlapping substrings,"* pat yourself on the back!
+If you said something along the lines of *"a string is composed of a bunch of smaller, overlapping substrings,"* pat yourself on the back!
 
 To solve the problems below, use the technique we just learned for finding recursive solutions. Remember:
   1. Apply the problem to a specific case (i.e., choose an example).
