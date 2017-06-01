@@ -73,6 +73,6 @@ Now that we think we have a working solution, we try it out in the console with 
 
 Arrays are another type of recursive data structure. This is because properties of an array generally can be thought of as combination of the properties of a subarray and a final element.
 
-1. Given an array and an index, write a recursive function to add up the elements of an array
-2. Write a recursive function to find the largest integer in an array
-3. Write out the function include to see if an array includes a given element
+1. Given an array and an index, write a recursive function to add up the elements of an array.
+2. Write a recursive function to find the largest integer in an array.
+3. Write out the function to see if an array includes a given element.
