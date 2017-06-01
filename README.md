@@ -1,10 +1,10 @@
-### Recursion Lab!
+# Recursion Lab!
 
 It turns out that there are a lot of interesting problems that can be solved with recursion.
 
 ![](https://s3-us-west-2.amazonaws.com/curriculum-content/web-development/algorithms/recursion-interesting.jpg)
 
-### Working with strings
+## Working with strings
 A string is a data structure that lends itself to recursive solutions. Do you see why? It's because a string consists of the substring plus that missing letter.
 
 ```javascript
@@ -64,12 +64,12 @@ function printString(string){
 
 Now that we think we have a working solution, we try it out in the console with some examples, and after it looks good we move it over to our codebase. Ok, you can open up the tests to this lab and find the rest of these problems.
 
-### Additional Problems with Strings
+## Additional Problems with Strings
 
 * Write out a recursive function to reverse a string.
 * Write out a recursive function to see if a word is a palindrome.
 
-### Arrays
+## Arrays
 
 Arrays are another type of recursive data structure. This is because properties of an array generally can be thought of as combination of the properties of a subarray and a final element.
 
