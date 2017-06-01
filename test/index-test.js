@@ -38,11 +38,6 @@ describe('printString()', function() {
     printString("pizza")
     expect(printString.callCount).toEqual(5)
   })
-
-  it("adds item dynamically", function() {
-    addToCart('pizza');
-    expect(getCart()[0]['item']).toEqual(undefined)
-  })
 });
 
 describe('reverseString()', function() {
