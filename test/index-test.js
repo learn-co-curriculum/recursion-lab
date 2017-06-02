@@ -1,9 +1,5 @@
-var chai = require('chai');
-var sinon = require('sinon');
-
-beforeEach(function() {
-  expect.spyOn(console, 'log');
-});
+// var chai = require('chai');
+// var sinon = require('sinon');
 
 afterEach(function() {
   expect.restoreSpies();
@@ -11,6 +7,8 @@ afterEach(function() {
 
 describe('printString()', function() {
   it("prints out all of the characters in a passed-in string", function() {
+    expect.spyOn(console, 'log');
+
     printString('pizza');
 
     expect(console.log).toHaveBeenCalledWith("p");
