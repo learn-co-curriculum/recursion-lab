@@ -1,4 +1,3 @@
-// var chai = require('chai');
 // var sinon = require('sinon');
 
 afterEach(function() {
