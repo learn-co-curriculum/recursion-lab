@@ -38,22 +38,10 @@ try {
 
     it("calls the function once for each letter in the string", function() {
       var printString = sinon.spy(window, "printString");
+
       printString("pizza")
+
       expect(printString.callCount).toEqual(5)
-    });
-  });
-
-  describe('#reverseString', function() {
-    it("should reverse all of the letters of a string", function() {
-      expect(reverseString('pizza')).toEqual("azzip")
-    });
-
-    it("recurses, calling itself once for each letter in the string", function() {
-      var printString = sinon.spy(window, "printString");
-
-      printString("pizza");
-
-      expect(printString.callCount).toEqual(5);
     });
   });
 
